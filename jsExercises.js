@@ -161,6 +161,7 @@ var lastName = " Sellers";
 firstName + lastName;
 
 // create a variable that holds the answer // of "firstName" + " " + "lastName"
+var fullName = firstName + lastName;
 
 // Evaluate this question. What is a + b?
 var a = 34;
