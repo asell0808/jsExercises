@@ -1,4 +1,5 @@
-/* JAVASCRIPT TYPES
+/* 
+JAVASCRIPT TYPES
 -----------------
 1. Number 
 2. String
@@ -32,7 +33,6 @@ else if
 <!-- ternary operator -->
 <!-- switch -->
 
-
 JAVASCRIPT LOGICAL OPERATORS
 -----------------
 &&
@@ -57,7 +57,6 @@ for
 while
 do 
 forEach (new in ECMAScript 5) 
-
 
 JAVASCRIPT KEYWORDS
 -----------------
@@ -95,13 +94,12 @@ while
 with
 yield
 
---------------------------------------------------------------------------------------------
+-----------------------------------------------------
 Exercises
---------------------------------------------------------------------------------------------
+-----------------------------------------------------
 // Guess what answers you would get if you ran this in the
 // Javascript Console in Google Chrome. Once you have an answer  to the questions then 
 // check them by copying them and running it in the console yourself line by line 
-
 
 //Evaluate the below:
 5 + "34"           39
@@ -118,7 +116,6 @@ false - true      -1
 3 - 4             -1
 "Bob" - "bill"    NaN
 
-
 //Evaluate the below comparisons:
 5 >= 1     True
 0 === 1    True
@@ -131,18 +128,44 @@ false - true      -1
 true === false  False 
 true != true    False
 
-
 // Make the string: "Hi There! It's "sunny" out" by using the + sign:
 "Hi There! It's " + "\"sunny\" " + "out"
 */
 
 /*
-
-basic calculator:
+--------------------------------------------------
+basic sum calculator:
+--------------------------------------------------
 
 var first = prompt("Enter first number");
 var second = prompt("Enter second number");
 var sum = Number(first) + Number(second);
 alert(sum);
+
+*/
+
+/*
+-------------------------------------------------
+ More Exercises
+-------------------------------------------------
+
+// Evaluate what answers you would get if you ran this in the
+// Javascript Console in Google Chrome. Answer the questions then 
+// check them by copying them and running it in the console yourself 
+// line by line 
+
+
+// add variable "firstName" and "lastName" // so that they equal your name
+
+// create a variable that holds the answer // of "firstName" + " " + "lastName"
+
+// Evaluate this question. What is a + b?
+var a = 34;
+var b = 21;
+a = 2;
+a + b // what is the answer here?
+
+// What is c equal to?
+var c;
 
 */
