@@ -135,3 +135,14 @@ true != true False
 // Make the string: "Hi There! It's "sunny" out" by using the + sign:
 "Hi There! It's " + "\"sunny\" " + "out"
 */
+
+/*
+
+basic calculator:
+
+var first = prompt("Enter first number");
+var second = prompt("Enter second number");
+var sum = Number(first) + Number(second);
+alert(sum);
+
+*/
