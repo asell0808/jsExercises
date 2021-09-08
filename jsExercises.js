@@ -202,10 +202,12 @@ How we do it:
 
 Code:
 
+alert("Instructions for calculator: \n 1. You will enter two numbers \n 2. Then you will choose your operator \n 3. Your answer will be displayed");
+
 var first = prompt("Enter first number");
 var second = prompt("Enter second number");
 
-var expression = prompt("From your two numbers, would you like them:                                   (1) Added (2) Subtracted (3) Divided (4) Multiplied")
+var expression = prompt("From your two numbers, would you like them: \n (1) Added (2) Subtracted (3) Divided (4) Multiplied")
 
 if (expression == 1){
     var sum = Number(first) + Number(second);
