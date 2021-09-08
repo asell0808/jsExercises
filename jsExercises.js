@@ -156,6 +156,9 @@ alert(sum);
 
 
 // add variable "firstName" and "lastName" // so that they equal your name
+var firstName = "Anthony";
+var lastName = " Sellers";
+firstName + lastName;
 
 // create a variable that holds the answer // of "firstName" + " " + "lastName"
 
