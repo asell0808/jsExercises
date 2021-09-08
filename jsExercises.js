@@ -167,9 +167,13 @@ var fullName = firstName + lastName;
 var a = 34;
 var b = 21;
 a = 2;
-a + b // what is the answer here?
+a + b // what is the answer here
+
+Answer: 23
 
 // What is c equal to?
 var c;
+
+Answer: undefined
 
 */
