@@ -104,32 +104,32 @@ Exercises
 
 
 //Evaluate the below:
-5 + "34"        39
-5 - "4"         1
-10 % 5          0
-5 % 10           5
+5 + "34"           39
+5 - "4"            1
+10 % 5             0
+5 % 10             5
 "Java" + "Script"  JavaScript
-" " + " "        "  "
-" " + 0          " 0"
-true + true     1
-true + false    1
-false + true    1
-false - true   -1
-3 - 4          -1
-"Bob" - "bill" NaN
+" " + " "          "  "
+" " + 0            " 0"
+true + true        1
+true + false       1
+false + true       1
+false - true      -1
+3 - 4             -1
+"Bob" - "bill"    NaN
 
 
 //Evaluate the below comparisons:
-5 >= 1 True
-0 === 1 True
-4 <= 1 False
-1 != 1 False
-"A" > "B" False
-"B" < "C" True
-"a" > "A" True
-"b" < "A" False
-true === false  false 
-true != true False
+5 >= 1     True
+0 === 1    True
+4 <= 1     False
+1 != 1     False
+"A" > "B"  False
+"B" < "C"  True
+"a" > "A"  True
+"b" < "A"  False
+true === false  False 
+true != true    False
 
 
 // Make the string: "Hi There! It's "sunny" out" by using the + sign:
