@@ -77,4 +77,39 @@ var newsfeed = [
     }
 ];
 
+------------------------
+Simple Facebook 2
+------------------------
+var database = [
+    {
+        username: "andrei",
+        password: "supersecret"
+    }
+];
+
+var newsFeed = [
+    {
+        username: "Roland",
+        timeline: "Wow I love JS!"
+    },
+    {
+        username: "Brock",
+        timeline: "Wow I think JS is whack!"
+    }
+];
+
+var userNamePrompt = prompt("What is your username?");
+var passwordPrompt = prompt("What is your password?");
+
+function signIn(user, pass){
+    if (user == database[0].username && pass == database[0].password){
+        console.log(newsfeed);
+    }
+    else{
+        alert("Sorry, your username and password were incorrect.")
+    }
+}
+
+signIn(userNamePrompt, passwordPrompt);
+
 */
